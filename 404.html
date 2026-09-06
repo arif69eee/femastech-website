@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Page not found | FEMAS Tech</title>
+<meta name="description" content="The page you were looking for is not here.">
+<link rel="canonical" href="https://femastech.com/404.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FEMAS Tech">
+<meta property="og:title" content="Page not found | FEMAS Tech">
+<meta property="og:description" content="The page you were looking for is not here.">
+<meta property="og:url" content="https://femastech.com/404.html">
+<meta property="og:image" content="https://femastech.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0d1712">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;750&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a href="#main" style="position:absolute;left:-9999px;top:0;background:#fff;padding:10px 16px;z-index:100" onfocus="this.style.left='8px'" onblur="this.style.left='-9999px'">Skip to content</a>
+<header class="hdr">
+  <div class="hdr__in">
+    <a class="brand" href="index.html" aria-label="FEMAS Tech home">
+      <img src="assets/logo.png" alt="FEMAS" width="236" height="48">
+      <span class="brand__tag">Tech</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn--pri btn--sm" href="contact.html">Request a quote</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero hero--page">
+  <div class="wrap hero__in">
+    <div class="narrow">
+      <p class="eyebrow">Error 404</p>
+      <h1>That page isn't here.</h1>
+      <p class="lead">The link may be out of date. Try our services, the project list, or get in touch.</p>
+      <div class="hero__cta">
+        <a class="btn btn--pri" href="index.html">Back to home</a>
+        <a class="btn btn--onDark" href="projects.html">Browse projects</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div>
+        <img src="assets/logo-light.png" alt="FEMAS Tech" width="248" height="50">
+        <p>Electro-mechanical engineering consultancy in Bangladesh - electrical design, installation
+        supervision, inspection, safety audit, testing and training.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#consultancy">Electrical Consultancy</a></li>
+          <li><a href="services.html#installation">Electrical Installation</a></li>
+          <li><a href="services.html#inspection">Electrical Inspection</a></li>
+          <li><a href="services.html#audit">Electrical Safety Audit</a></li>
+          <li><a href="services.html#tests">Electrical Tests</a></li>
+          <li><a href="services.html#training">Electrical Training</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="about.html#vision">Vision</a></li>
+          <li><a href="about.html#team">Key personnel</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html#mep">Mechanical &amp; plumbing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li>Plot-24, Road-04, Duaripara, Rupnagar, Mirpur, Dhaka-1216, Bangladesh</li>
+          <li><a href="tel:+8801724985975">+880 1724-985975</a></li>
+          <li><a href="tel:+8801710189680">+880 1710-189680</a></li>
+          <li><a href="mailto:femas.tech1@gmail.com">femas.tech1@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr__btm">
+      <span>&copy; <span id="yr">2026</span> FEMAS Tech. All rights reserved.</span>
+      <span>Practising since 2014 &middot; Dhaka, Bangladesh</span>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById('burger'), n=document.getElementById('nav');
+  if(b) b.addEventListener('click',function(){
+    var o=n.classList.toggle('open'); b.setAttribute('aria-expanded',o?'true':'false');
+  });
+  var y=document.getElementById('yr'); if(y) y.textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
